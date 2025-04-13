@@ -1,0 +1,136 @@
+.footer {
+    background: #292929;
+    color: #fff;
+    padding: 40px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+  
+  .footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footerLogo {
+    max-width: 300px;
+  }
+
+  .footerTitle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .footerSubtitle{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  
+  
+
+  
+  .footerNavTitle,
+  .footerContactsTitle {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footerNav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerNav ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footerNav ul li button {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footerNav ul li button:hover {
+    color: #007bff;
+  }
+  
+  
+  .footerContactsText {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .footerContactsText a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footerContacts a:hover {
+    color: #007bff;
+    text-decoration: none;
+
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .socialIcons a {
+    color: #ccc;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .socialIcons a:hover {
+    color: #007bff;
+  }
+  
+  /* Нижняя часть футера */
+  .footerBottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .footerBottomTitle {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .footerBottomText {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  /* Адаптация */
+  @media (max-width: 768px) {
+    .footerWrapper {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footerNav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .socialIcons {
+      justify-content: center;
+    }
+  }
+  

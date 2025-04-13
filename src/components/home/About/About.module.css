@@ -1,0 +1,65 @@
+/* src/styles/About.module.css */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fc;
+  }
+
+  .container {
+    display: grid;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  
+  
+  .content {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+  }
+  
+  
+  
+  .advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .advantage {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.5s ease-out;
+
+  }
+
+  .advantage:hover {
+    transform: scale(1.05);  
+
+}
+  
+  
+  .number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  

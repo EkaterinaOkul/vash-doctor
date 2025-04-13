@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    max-width: 500px; /* Максимальная ширина карточки */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .imageContainer {
+    flex: 0 0 220px; /* Фиксированная ширина для изображения */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 220px; /* Фиксированный размер изображения */
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .specialty {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1D76FE;
+  }
+  

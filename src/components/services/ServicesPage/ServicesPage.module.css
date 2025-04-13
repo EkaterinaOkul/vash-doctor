@@ -1,0 +1,85 @@
+.servicesPage {
+    background: #f8f9fa;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px; /* Теперь совпадает со страницей "Врачи" */
+    width: 100%;
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .intro {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .servicesList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки */
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .serviceItem {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .serviceItem:hover {
+    transform: scale(1.02);
+  
+  }
+  
+  .serviceTitle {
+    color: #1D76FE;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .shortDescription {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .fullDescription {
+    font-size: 16px;
+    margin-top: 10px;
+    white-space: pre-line;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4d4d4d;
+  }
+  
+  /* Адаптация для мобильных устройств */
+  @media (max-width: 768px) {
+    .servicesList {
+      grid-template-columns: 1fr; /* В мобильной версии одна колонка */
+    }
+  }
+  

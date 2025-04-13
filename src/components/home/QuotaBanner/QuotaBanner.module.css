@@ -1,0 +1,23 @@
+.banner {
+    background: #f8f9fa;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.quotaBanner {
+    background: #292929;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+
+  }
+  
+  .quotaBannerText{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}

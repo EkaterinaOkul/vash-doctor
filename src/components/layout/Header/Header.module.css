@@ -1,0 +1,82 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #1D76FE;
+  z-index: 1000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav li {
+  margin: 0;  /* Убираем маргины у элементов списка */
+}
+
+.nav a {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;  /* Чтобы ссылки не имели лишних отступов */
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Стили для кнопки */
+.button {
+  background-color: #ffffff;
+  color: #1D76FE;
+  padding: 15px 25px;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #292929;
+  text-decoration: none;
+
+  color: #ffffff;
+  border: none;
+}
+
+
